@@ -13,7 +13,7 @@
 <body>
 	<h1 align=center> REGISTER AN ACCOUNT </h1>
 	<br><br>
-	<form action="formact.php">
+	<form action="formact.php" method="post">
 		<div class="container" align = center>
 		<div class= "row">
 			<div class = "col-sm-3"></div>
@@ -41,7 +41,7 @@
 
 			<div class="clearfix">
 			<button type="button"  class="btn btn-secondary">Cancel</button>
-			<button type="submit" class="btn btn-success">Sign Up</button>
+			<button type="submit" name="submit" class="btn btn-success">Sign Up</button>
 			</div>
 			
 			<br>
